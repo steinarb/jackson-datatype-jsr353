@@ -28,6 +28,11 @@ working with JSR-353 (JDK Json-processing API) node types via data-binding
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <scope>provided</scope>
+    </dependency>
     <!-- Extends Jackson mapper -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
